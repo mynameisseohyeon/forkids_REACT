@@ -3,3 +3,16 @@
   height: 450px;
   background-color: #444;
 }
+
+.FooterInner {
+  padding: 86px 88px;
+}
+
+.sns img {
+  padding: 40px 10px 0px 0px;
+}
+
+.below {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3개의 열로 분할 */
+}
