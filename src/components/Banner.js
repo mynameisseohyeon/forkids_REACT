@@ -1,5 +1,7 @@
 import "../css/Banner.css";
 
+//어린이의 연령별 장난감 소개,
+
 function Banner() {
   return (
     <>
