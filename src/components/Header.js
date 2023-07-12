@@ -20,6 +20,7 @@ function Header() {
               border: "none",
               marginLeft: "30px",
               width: "118px",
+              height: "50px",
             }}
           >
             Get Start

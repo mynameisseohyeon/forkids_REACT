@@ -3,3 +3,21 @@
   height: 1300px;
   background-color: #999;
 }
+
+/* reset */
+
+.MainKeyword {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.SubKeyword {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.ContentsBtn {
+  padding: 50px 375px;
+}
