@@ -7,7 +7,22 @@ function Introduce() {
   return (
     <>
       <div className="IntroduceMain">
-        <div className="IntroduceInner"></div>
+        <div className="IntroduceInner">
+          <div className="introIcon">
+            <div className="introBox" style={{ marginRight: 20 }}></div>
+            <div className="introBox"></div>
+            <div
+              className="introBox"
+              style={{ marginRight: 20, marginTop: 110 }}
+            ></div>
+            <div className="introBox"></div>
+          </div>
+          <div className="introText">
+            <h3 style={{ display: "inline-block" }}>
+              Experience the privileges after signing up
+            </h3>
+          </div>
+        </div>
       </div>
     </>
   );
