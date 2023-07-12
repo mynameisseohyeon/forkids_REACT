@@ -3,3 +3,22 @@
   height: 150px;
   background-color: white;
 }
+
+.HeaderInner {
+  margin: auto 0;
+  padding: 53px;
+}
+
+/* reset */
+
+.HeaderMenu {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-left: 380px;
+  font-size: 20px;
+  font-family: "Bitter", serif;
+}
+
+.HeaderMenu span {
+  padding: 30px;
+}

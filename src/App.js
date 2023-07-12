@@ -8,6 +8,8 @@ import Banner from "./components/Banner";
 import Events from "./components/Events";
 import Footer from "./components/Footer";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
     <>
