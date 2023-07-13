@@ -1,11 +1,15 @@
 .IntroduceMain {
   width: 100%;
-  height: 980px;
-  background-color: #777;
+  height: 1700px;
+  background-color: #666;
 }
 
 .IntroduceInner {
+  height: 1700px;
   padding: 130px 80px;
+}
+
+.privileges {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
