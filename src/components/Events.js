@@ -6,7 +6,9 @@ function Events() {
   return (
     <>
       <div className="EventsMain">
-        <div className="EventsInner"></div>
+        <div className="EventsInner">
+          <h3>At forKids, we offer a wide range of exciting events</h3>
+        </div>
       </div>
     </>
   );
