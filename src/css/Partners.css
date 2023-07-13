@@ -5,7 +5,8 @@
 }
 
 .PartnersInner {
-  margin: auto 0;
+  margin: 0 auto;
+  width: 1080px;
   padding: 73px 53px;
   text-align: center;
 }

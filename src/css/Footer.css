@@ -5,6 +5,8 @@
 }
 
 .FooterInner {
+  margin: 0 auto;
+  width: 1080px;
   padding: 86px 88px;
 }
 

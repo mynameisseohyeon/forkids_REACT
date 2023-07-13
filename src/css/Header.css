@@ -5,8 +5,9 @@
 }
 
 .HeaderInner {
-  margin: auto 0;
+  margin: 0 auto;
   padding: 53px;
+  width: 1080px;
 }
 
 /* reset */

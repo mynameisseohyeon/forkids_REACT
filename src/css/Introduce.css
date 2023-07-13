@@ -5,6 +5,8 @@
 }
 
 .IntroduceInner {
+  margin: 0 auto;
+  width: 1080px;
   height: 1700px;
   padding: 130px 80px;
 }

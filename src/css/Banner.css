@@ -6,6 +6,8 @@
 }
 
 .BannerInner {
+  margin: 0 auto;
+  width: 1080px;
   height: 1280px;
   padding: 100px 80px;
 }

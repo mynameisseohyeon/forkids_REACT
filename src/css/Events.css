@@ -6,6 +6,8 @@
 }
 
 .EventsInner {
+  margin: 0 auto;
+  width: 1080px;
   height: 750px;
   padding: 100px 80px;
 }
