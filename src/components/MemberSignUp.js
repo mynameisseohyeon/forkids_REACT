@@ -40,11 +40,11 @@ function MemberSignUp() {
                 width: "250px",
                 height: "60px",
                 position: "relative",
-                right: -70,
+                right: -42,
                 top: 30,
               }}
             >
-              Create my agit ccount
+              Create my account
             </Button>
           </div>
         </div>
