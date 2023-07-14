@@ -1,0 +1,49 @@
+.CategoriesMain {
+  width: 100%;
+  height: 1280px;
+  background-color: #777;
+  text-align: center;
+}
+
+.CategoriesInner {
+  margin: 0 auto;
+  width: 1080px;
+  height: 1280px;
+  padding: 100px 80px;
+}
+
+/* reset */
+
+.TopRanking {
+  height: 640px;
+}
+
+.RankingBox {
+  padding-top: 70px;
+}
+
+.RankingBox img {
+  width: 200px;
+  height: 250px;
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
+
+.AgeCategory {
+  height: 440px;
+}
+
+.AgeCategoryBox {
+  padding-top: 70px;
+}
+
+.AgeCategoryBox img {
+  width: 160px;
+  height: 160px;
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0px 10px;
+}
