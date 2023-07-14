@@ -7,10 +7,33 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  text-align: center;
 }
 
 .MemberSignUpInner {
   width: 100%;
   height: 900px;
   margin: 0 auto;
+  padding: 80px;
+}
+
+.Account {
+  padding-bottom: 20px;
+}
+
+.CreateAccount {
+  position: relative;
+  margin: 0 auto;
+  width: 450px;
+  height: 550px;
+  top: 50px;
+  padding: 20px;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 25px;
+  border: none;
+  border-radius: 10px;
 }
