@@ -21,6 +21,31 @@ function MemberSignUp() {
             <input placeholder="@.com" />
             <span>Password</span>
             <input placeholder="••••••••••" />
+            <input
+              className="checkbox"
+              type="checkbox"
+              name="checkboxName"
+              value="checkboxValue"
+            />
+            <span style={{ fontSize: 13, color: "gray" }}>
+              By checking this box, I agree to receive promotional emails
+            </span>
+            <Button
+              style={{
+                backgroundColor: "white",
+                color: "pink",
+                border: "none",
+                borderRadius: 30,
+                marginLeft: "30px",
+                width: "250px",
+                height: "60px",
+                position: "relative",
+                right: -70,
+                top: 30,
+              }}
+            >
+              Create my agit ccount
+            </Button>
           </div>
         </div>
       </div>

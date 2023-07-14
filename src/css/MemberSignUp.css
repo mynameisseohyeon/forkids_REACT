@@ -28,6 +28,7 @@
   height: 550px;
   top: 50px;
   padding: 20px;
+  text-align: left;
 }
 
 input {
@@ -36,4 +37,9 @@ input {
   margin-bottom: 25px;
   border: none;
   border-radius: 10px;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
 }
