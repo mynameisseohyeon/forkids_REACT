@@ -3,8 +3,8 @@ import "./App.css";
 import HomePage from "./Screen/HomePage";
 import StorePage from "./Screen/StorePage";
 import DetailPage from "./Screen/DetailPage";
-import LogInPage from "./Screen/LogInPage";
 import SignUpPage from "./Screen/SignUpPage";
+import LogInPage from "./Screen/LogInPage";
 
 import {
   Routes,
@@ -22,9 +22,9 @@ function App() {
     <>
       {/* <HomePage /> */}
       {/* <StorePage /> */}
-      <DetailPage />
+      {/* <DetailPage /> */}
+      <SignUpPage />
       {/* <LogInPage /> */}
-      {/* <SignUpPage /> */}
     </>
   );
 }
