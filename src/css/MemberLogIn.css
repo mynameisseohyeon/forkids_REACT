@@ -7,10 +7,34 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  text-align: center;
 }
 
 .MemberLogInInner {
   width: 100%;
   height: 900px;
   margin: 0 auto;
+  padding: 100px;
+}
+
+/* reset */
+
+.Account {
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.CreateAccount {
+  position: relative;
+  margin: 0 auto;
+  width: 450px;
+  height: 550px;
+  top: 50px;
+  padding: 20px;
+  text-align: left;
+}
+
+.MoveSignUpPage {
+  position: relative;
+  top: -100px;
 }

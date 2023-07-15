@@ -23,8 +23,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <StorePage /> */}
       {/* <DetailPage /> */}
-      <SignUpPage />
-      {/* <LogInPage /> */}
+      {/* <SignUpPage /> */}
+      <LogInPage />
     </>
   );
 }
