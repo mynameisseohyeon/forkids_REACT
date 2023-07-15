@@ -1,7 +1,7 @@
 import "../css/MemberLogIn.css";
-// import Button from "react-bootstrap/Button";
 import { Stack, Button, Image } from "react-bootstrap";
-// import Image from "react";
+import SignUpPage from "../Screen/SignUpPage";
+import { Link } from "react-router-dom";
 
 function MemberLogIn() {
   return (
@@ -43,9 +43,11 @@ function MemberLogIn() {
               Log In
             </Button>
           </div>
-          <span className="MoveSignUpPage">
-            Do not have an account? Sign Up
-          </span>
+          <Link to="/signup">
+            <span className="MoveSignUpPage">
+              Do not have an account? Sign Up
+            </span>
+          </Link>
         </div>
       </div>
     </>

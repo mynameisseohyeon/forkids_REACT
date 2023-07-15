@@ -63,7 +63,7 @@
 .LogInPageMain,
 .SignUpPageMain {
   width: 100%;
-  height: 450px;
+  height: 900px;
   background-color: pink;
   display: inline-flex;
   padding-left: 0px;
@@ -75,6 +75,6 @@
 .LogInPageInner,
 .SignUpPageInner {
   width: 100%;
-  height: 450px;
+  height: 900px;
   margin: 0 auto;
 }

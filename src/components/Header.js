@@ -24,17 +24,19 @@ function Header() {
               <span>Detail</span>
             </Link>
           </div>
-          <Button
-            style={{
-              backgroundColor: "pink",
-              border: "none",
-              marginLeft: "30px",
-              width: "118px",
-              height: "50px",
-            }}
-          >
-            Get Start
-          </Button>
+          <Link to="/login">
+            <Button
+              style={{
+                backgroundColor: "pink",
+                border: "none",
+                marginLeft: "30px",
+                width: "118px",
+                height: "50px",
+              }}
+            >
+              Get Start
+            </Button>
+          </Link>
         </div>
       </div>
     </>

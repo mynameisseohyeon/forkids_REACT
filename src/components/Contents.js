@@ -1,7 +1,9 @@
 import "../css/Contents.css";
 import { Stack, Button, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Contents() {
+  //캐러셀 생각 중
   return (
     <>
       <div className="ContentsMain">
@@ -20,30 +22,37 @@ function Contents() {
             </span>
           </div>
           <div className="ContentsBtn">
-            <Button
-              style={{
-                backgroundColor: "pink",
-                border: "none",
-                marginLeft: "30px",
-                width: "118px",
-                height: "50px",
-              }}
-            >
-              Get Start
-            </Button>
-            <Button
-              style={{
-                backgroundColor: "white",
-                color: "pink",
-                border: "none",
-                marginLeft: "30px",
-                width: "118px",
-                height: "50px",
-              }}
-            >
-              Buy Now
-            </Button>
+            <Link to="/login">
+              <Button
+                style={{
+                  backgroundColor: "pink",
+                  border: "none",
+                  marginLeft: "30px",
+                  width: "118px",
+                  height: "50px",
+                }}
+              >
+                Get Start
+              </Button>
+            </Link>
+
+            <Link to="/store">
+              <Button
+                style={{
+                  backgroundColor: "white",
+                  color: "pink",
+                  border: "none",
+                  marginLeft: "30px",
+                  width: "118px",
+                  height: "50px",
+                }}
+              >
+                Buy Now
+              </Button>
+            </Link>
           </div>
+
+          <div className="Carouel"></div>
         </div>
       </div>
     </>
