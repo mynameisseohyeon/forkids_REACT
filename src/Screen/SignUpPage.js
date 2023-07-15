@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import MemberSignUp from "../components/MemberSignUp";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,7 +7,6 @@ function SignUpPage() {
     <>
       <div className="SignUpPageMain">
         <div className="SignUpPageInner">
-          <Header />
           <MemberSignUp />
         </div>
       </div>

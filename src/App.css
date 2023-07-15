@@ -4,7 +4,7 @@
 
 .Main {
   width: 100%;
-  height: 5880px;
+  height: 5280px;
   background-color: pink;
   display: inline-flex;
   padding-left: 0px;
@@ -15,7 +15,7 @@
 
 .inner {
   width: 100%;
-  height: 5880px;
+  height: 5280px;
   /* background-color: antiquewhite; */
   margin: 0 auto;
 }
@@ -24,7 +24,7 @@
 
 .StoreMain {
   width: 100%;
-  height: 2530px;
+  height: 1930px;
   background-color: pink;
   display: inline-flex;
   padding-left: 0px;
@@ -35,7 +35,7 @@
 
 .StoreInner {
   width: 100%;
-  height: 2530px;
+  height: 1930px;
   margin: 0 auto;
 }
 
@@ -43,7 +43,7 @@
 
 .DetailPageMain {
   width: 100%;
-  height: 1500px;
+  height: 900px;
   background-color: pink;
   display: inline-flex;
   padding-left: 0px;
@@ -54,7 +54,7 @@
 
 .DetailPageInner {
   width: 100%;
-  height: 1500px;
+  height: 900px;
   margin: 0 auto;
 }
 
@@ -63,7 +63,7 @@
 .LogInPageMain,
 .SignUpPageMain {
   width: 100%;
-  height: 1050px;
+  height: 450px;
   background-color: pink;
   display: inline-flex;
   padding-left: 0px;
@@ -75,6 +75,6 @@
 .LogInPageInner,
 .SignUpPageInner {
   width: 100%;
-  height: 1050px;
+  height: 450px;
   margin: 0 auto;
 }
