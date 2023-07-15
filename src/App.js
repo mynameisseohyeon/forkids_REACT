@@ -20,11 +20,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <StorePage /> */}
       {/* <DetailPage /> */}
       {/* <SignUpPage /> */}
-      <LogInPage />
+      {/* <LogInPage /> */}
     </>
   );
 }
