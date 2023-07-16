@@ -52,7 +52,9 @@ function Contents() {
             </Link>
           </div>
 
-          <div className="Carouel"></div>
+          <div className="Carouel">
+            <img src="images/decorating/kids3.png" style={{ width: "100%" }} />
+          </div>
         </div>
       </div>
     </>

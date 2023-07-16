@@ -14,7 +14,7 @@ function Introduce() {
               <div className="introBox"></div>
               <div
                 className="introBox"
-                style={{ marginRight: 20, marginTop: 110 }}
+                style={{ marginRight: 20, marginTop: 20 }}
               ></div>
               <div className="introBox"></div>
             </div>
