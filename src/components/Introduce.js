@@ -5,6 +5,8 @@ import "../css/Introduce.css";
 //스탬프 적립 안내, 포장 서비스 및 카드 서비스, 장난감 월별 구독 서비스
 // 장난감 서비스 구독 시 매달 새로운 장난감 배송
 
+//이미지 클릭 시에 자세한 내용이 나오도록 z-index 수정 background 불투명한 회색 느낌으로
+
 function Introduce() {
   return (
     <>
