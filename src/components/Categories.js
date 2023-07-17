@@ -36,6 +36,13 @@ function Categories() {
               <img src="images/decorating/baby4.png" />
               <img src="images/decorating/baby5.png" />
             </div>
+            <div className="AgeBox">
+              <span>0-1</span>
+              <span>2</span>
+              <span>3-4</span>
+              <span>5</span>
+              <span>6</span>
+            </div>
           </div>
         </div>
       </div>

@@ -47,3 +47,15 @@
   border-radius: 20px;
   margin: 0px 10px;
 }
+
+.AgeBox span {
+  position: relative;
+  display: inline-block;
+  width: 160px;
+  top: 30px;
+  right: -12px;
+  margin-right: 20px;
+  border: 10px solid white;
+  background-color: white;
+  border-radius: 20px;
+}
