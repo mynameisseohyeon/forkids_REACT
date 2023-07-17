@@ -1,6 +1,6 @@
 import "../css/Events.css";
 
-//행사하는 상품, 스탬프 적립 안내, 포장 서비스 및 카드 서비스
+//행사하는 상품 //구매 혜택 (00원 이상 주문 시)
 
 function Events() {
   return (
@@ -8,6 +8,7 @@ function Events() {
       <div className="EventsMain">
         <div className="EventsInner">
           <h3>At forKids, we offer a wide range of exciting events</h3>
+          <div></div>
         </div>
       </div>
     </>

@@ -8,10 +8,10 @@
   margin: 0 auto;
   width: 1080px;
   height: 1700px;
-  padding: 130px 80px;
+  padding: 130px 45px;
 }
 
-.privileges {
+/* .privileges {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -28,9 +28,27 @@
   height: 300px;
   background-color: #fff;
   border-radius: 20px;
-}
+} */
 
 .introText {
   text-align: center;
-  padding: 70px 20px;
+  padding: 0px 20px 70px 20px;
+}
+
+.introMsg {
+  padding-top: 10px;
+  height: 400px;
+}
+
+.intImag {
+  border: 10px solid white;
+  border-radius: 20px;
+  width: 650px;
+  height: 400px;
+}
+
+.intText {
+  display: inline-block;
+  width: 340px;
+  height: 340px;
 }
