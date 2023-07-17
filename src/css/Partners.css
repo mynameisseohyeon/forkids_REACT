@@ -1,7 +1,7 @@
 .PartnersMain {
   width: 100%;
   height: 250px;
-  background-color: #888;
+  background-color: #fff8d2;
 }
 
 .PartnersInner {
@@ -9,6 +9,10 @@
   width: 1080px;
   padding: 73px 53px;
   text-align: center;
+}
+
+.PartnersImg img {
+  padding: 0px 30px;
 }
 
 /* reset */

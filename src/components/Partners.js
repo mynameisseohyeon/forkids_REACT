@@ -8,7 +8,7 @@ function Partners() {
           <span style={{ fontSize: 18 }}>
             We are sponsoring the following organizations.
           </span>
-          <div style={{ paddingTop: 30 }}>
+          <div className="PartnersImg" style={{ paddingTop: 30 }}>
             <img src="images/partners/partners1.png" />
             <img src="images/partners/partners2.png" />
             <img src="images/partners/partners3.png" />
