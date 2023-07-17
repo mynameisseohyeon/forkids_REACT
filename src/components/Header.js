@@ -6,6 +6,26 @@ import StorePage from "../Screen/StorePage";
 import DetailPage from "../Screen/DetailPage";
 
 function Header() {
+  const buttonStyle = {
+    backgroundColor: "pink",
+    border: "none",
+    marginLeft: "30px",
+    width: "118px",
+    height: "50px",
+    color: "white",
+    transition: "background-color 0.3s, color 0.3s",
+  };
+
+  const handleMouseEnter = (event) => {
+    event.target.style.backgroundColor = "white";
+    event.target.style.color = "pink";
+  };
+
+  const handleMouseLeave = (event) => {
+    event.target.style.backgroundColor = "pink";
+    event.target.style.color = "white";
+  };
+
   return (
     <>
       <div className="HeaderMain">
@@ -26,13 +46,9 @@ function Header() {
           </div>
           <Link to="/login">
             <Button
-              style={{
-                backgroundColor: "pink",
-                border: "none",
-                marginLeft: "30px",
-                width: "118px",
-                height: "50px",
-              }}
+              style={buttonStyle}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
             >
               Get Start
             </Button>

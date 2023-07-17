@@ -3,6 +3,26 @@ import { Stack, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 function Contents() {
+  const buttonStyle = {
+    backgroundColor: "pink",
+    border: "none",
+    marginLeft: "30px",
+    width: "118px",
+    height: "50px",
+    color: "white",
+    transition: "background-color 0.3s, color 0.3s",
+  };
+
+  const handleMouseEnter = (event) => {
+    event.target.style.backgroundColor = "white";
+    event.target.style.color = "pink";
+  };
+
+  const handleMouseLeave = (event) => {
+    event.target.style.backgroundColor = "pink";
+    event.target.style.color = "white";
+  };
+
   //캐러셀 생각 중
   return (
     <>
@@ -24,13 +44,9 @@ function Contents() {
           <div className="ContentsBtn">
             <Link to="/login">
               <Button
-                style={{
-                  backgroundColor: "pink",
-                  border: "none",
-                  marginLeft: "30px",
-                  width: "118px",
-                  height: "50px",
-                }}
+                style={buttonStyle}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               >
                 Get Start
               </Button>
@@ -46,6 +62,8 @@ function Contents() {
                   width: "118px",
                   height: "50px",
                 }}
+                onMouseEnter={handleMouseLeave}
+                onMouseLeave={handleMouseEnter}
               >
                 Buy Now
               </Button>

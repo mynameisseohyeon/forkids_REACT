@@ -15,27 +15,30 @@ function HomePage() {
             src="images/decorating/background1.png"
             style={{
               top: 370,
-              right: 170,
+              right: 260,
               objectFit: "contain",
               position: "absolute",
+              width: 300,
             }}
           />
           <img
             src="images/decorating/background2.png"
             style={{
               top: 370,
-              left: 170,
+              left: 70,
               objectFit: "contain",
               position: "absolute",
+              width: 600,
             }}
           />
           <img
             src="images/decorating/background3.png"
             style={{
-              top: 1900,
-              right: 150,
+              top: 1950,
+              right: 200,
               objectFit: "contain",
               position: "absolute",
+              width: 450,
             }}
           />
           <img
@@ -45,6 +48,7 @@ function HomePage() {
               left: 150,
               objectFit: "contain",
               position: "absolute",
+              widows: 450,
             }}
           />
           <img
@@ -54,7 +58,7 @@ function HomePage() {
               right: 250,
               objectFit: "contain",
               position: "absolute",
-              width: "16%",
+              width: 300,
             }}
           />
           <img
