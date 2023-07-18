@@ -10,7 +10,17 @@
 }
 
 .ProductDetailInner {
-  width: 100%;
+  width: 1080px;
   height: 900px;
   margin: 0 auto;
+  padding: 80px 50px;
+}
+
+/* reset */
+
+.ProductImg {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: white;
 }

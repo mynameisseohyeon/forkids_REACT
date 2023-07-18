@@ -1,7 +1,7 @@
 import "../css/MemberSignUp.css";
 // import Button from "react-bootstrap/Button";
 import { Stack, Button, Image } from "react-bootstrap";
-// import Image from "react";
+import { Link } from "react-router-dom";
 
 function MemberSignUp() {
   return (
@@ -30,22 +30,24 @@ function MemberSignUp() {
             <span style={{ fontSize: 13, color: "gray" }}>
               By checking this box, I agree to receive promotional emails
             </span>
-            <Button
-              style={{
-                backgroundColor: "white",
-                color: "pink",
-                border: "none",
-                borderRadius: 30,
-                marginLeft: "30px",
-                width: "250px",
-                height: "60px",
-                position: "relative",
-                right: -42,
-                top: 30,
-              }}
-            >
-              Create my account
-            </Button>
+            <Link to="/login">
+              <Button
+                style={{
+                  backgroundColor: "white",
+                  color: "pink",
+                  border: "none",
+                  borderRadius: 30,
+                  marginLeft: "30px",
+                  width: "250px",
+                  height: "60px",
+                  position: "relative",
+                  right: -42,
+                  top: 30,
+                }}
+              >
+                Create my account
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

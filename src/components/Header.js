@@ -40,9 +40,7 @@ function Header() {
             <Link to="/store">
               <span>Store</span>
             </Link>
-            <Link to="/detail">
-              <span>Detail</span>
-            </Link>
+            <span>My Page</span>
           </div>
           <Link to="/login">
             <Button

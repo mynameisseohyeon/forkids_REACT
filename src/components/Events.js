@@ -1,6 +1,7 @@
 import "../css/Events.css";
 
 //행사하는 상품 //구매 혜택 (00원 이상 주문 시)
+//hover 시 이미지가 확대되도록
 
 function Events() {
   return (

@@ -26,22 +26,24 @@ function MemberLogIn() {
             <span style={{ fontSize: 13, color: "gray" }}>
               Would you like to remember your email address?
             </span>
-            <Button
-              style={{
-                backgroundColor: "white",
-                color: "pink",
-                border: "none",
-                borderRadius: 30,
-                marginLeft: "30px",
-                width: "250px",
-                height: "60px",
-                position: "relative",
-                right: -42,
-                top: 30,
-              }}
-            >
-              Log In
-            </Button>
+            <Link to="/">
+              <Button
+                style={{
+                  backgroundColor: "white",
+                  color: "pink",
+                  border: "none",
+                  borderRadius: 30,
+                  marginLeft: "30px",
+                  width: "250px",
+                  height: "60px",
+                  position: "relative",
+                  right: -42,
+                  top: 30,
+                }}
+              >
+                Log In
+              </Button>
+            </Link>
           </div>
           <Link to="/signup">
             <span className="MoveSignUpPage">

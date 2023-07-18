@@ -1,4 +1,5 @@
 import "../css/Categories.css";
+import { Link } from "react-router-dom";
 
 //인기 랭킹
 //어린이의 연령별 장난감 소개, 0-1, 2, 3-4, 5, 6
@@ -15,7 +16,9 @@ function Categories() {
               toys loved by children everywhere.
             </span>
             <div className="RankingBox">
-              <img src="images/decorating/toys6.png" />
+              <Link to="/detail">
+                <img src="images/decorating/toys6.png" />
+              </Link>
               <img src="images/decorating/toys9.png" />
               <img src="images/decorating/toys8.png" />
               <img src="images/decorating/toys12.png" />

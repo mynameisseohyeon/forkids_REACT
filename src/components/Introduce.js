@@ -1,4 +1,5 @@
 import "../css/Introduce.css";
+import Accordion from "react-bootstrap/Accordion";
 
 //주요 상품 및 카테고리 소개, 안정성과 품질 강조, 배송 안내,
 // 교육적 가치 강조(창의력, 문제 해결 능력 발달)
@@ -105,3 +106,22 @@ function Introduce() {
 }
 
 export default Introduce;
+
+// function AllCollapseExample() {
+//   return (
+//     <Accordion>
+//       <Accordion.Item eventKey="0" style={{ width: 340 }}>
+//         <Accordion.Header>Accordion Item #1</Accordion.Header>
+//         <Accordion.Body>
+//           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+//           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+//           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+//           aliquip ex ea commodo consequat. Duis aute irure dolor in
+//           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+//           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+//           culpa qui officia deserunt mollit anim id est laborum.
+//         </Accordion.Body>
+//       </Accordion.Item>
+//     </Accordion>
+//   );
+// }

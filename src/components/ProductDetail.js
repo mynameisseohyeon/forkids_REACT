@@ -7,7 +7,11 @@ function ProductDetail() {
   return (
     <>
       <div className="ProductDetailMain">
-        <div className="ProductDetailInner"></div>
+        <div className="ProductDetailInner">
+          <div className="ProductImg">
+            <img src="" />
+          </div>
+        </div>
       </div>
     </>
   );
