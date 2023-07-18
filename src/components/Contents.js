@@ -1,9 +1,11 @@
 import "../css/Contents.css";
 import { Stack, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Carousel from "./Carousel";
 
 function Contents() {
   const buttonStyle = {
+    //버튼 효과 수정
     backgroundColor: "pink",
     border: "none",
     marginLeft: "30px",
@@ -71,7 +73,7 @@ function Contents() {
           </div>
 
           <div className="Carouel">
-            <img src="images/decorating/kids3.png" style={{ width: "100%" }} />
+            <Carousel style={{ width: "100%" }} />
           </div>
         </div>
       </div>
