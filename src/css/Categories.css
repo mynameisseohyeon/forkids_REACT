@@ -23,6 +23,7 @@
 /* reset */
 
 .TopRanking {
+  padding-top: 50px;
   height: 600px;
 }
 
@@ -44,7 +45,7 @@
 }
 
 .AgeCategory {
-  height: 480px;
+  height: 400px;
 }
 
 .AgeCategoryBox {
