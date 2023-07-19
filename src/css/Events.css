@@ -21,6 +21,10 @@
   margin: 100px 28px 30px 28px;
 }
 
+.EventIcon img:hover {
+  transform: scale(1.1);
+}
+
 .EventInt span {
   position: relative;
   display: inline-block;

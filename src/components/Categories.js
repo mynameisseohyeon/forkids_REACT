@@ -17,10 +17,10 @@ function Categories() {
             </span>
             <div className="RankingBox">
               <Link to="/detail">
-                <img src="images/decorating/toys6.png" />
+                <img src="images/decorating/toys16.png" />
               </Link>
               <img src="images/decorating/toys9.png" />
-              <img src="images/decorating/toys8.png" />
+              <img src="images/decorating/toys7.png" />
               <img src="images/decorating/toys12.png" />
             </div>
           </div>
