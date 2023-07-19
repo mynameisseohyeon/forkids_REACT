@@ -47,37 +47,78 @@ function ProductDetail() {
 
           <div className="ProductBottom">
             {/*  성분 및 반품 교한 배송에 대한 설명 */}
-            <div>
-              <span>상품명</span>
-              <span> 닥터 세트</span>
-              <span>메이커</span>
-              <span> 플랜토이(태국)</span>
-              <span>생산국</span>
-              <span>태국</span>
-              <span>소재</span>
-              <span> 천연 나무 (고무 나무)</span>
-              <span>사이즈 </span>
-              <span> 2.4 x 16.0 x 51.6 cm</span>
-              <span>무게</span>
-              <span>총중량 248g</span>
-              <span>내용</span>
-              <span>가방, 청진기, 혈압계, 타건기, 체온계, 주사기 각 1 개</span>
-              <span>대상 연령</span>
-              <span>3세～</span>
-              <span>주의사항</span>
-              <span>
-                천연 목재를 사용하고 있기 때문에, 나뭇결과 색감, 감촉 등 하나
-                하나 개체 차이가 있습니다.
-              </span>
+            <div className="ProductGuid">
+              <h3>제품 안내</h3>
+              <table style={{ margin: "0 auto" }}>
+                <tr>
+                  <td className="td1">상품명</td>
+                  <td className="td2">닥터 세트</td>
+                </tr>
+                <tr>
+                  <td className="td1">메이커</td>
+                  <td className="td2">플랜토이(태국)</td>
+                </tr>
+                <tr>
+                  <td className="td1">생산국</td>
+                  <td className="td2">태국</td>
+                </tr>
+                <tr>
+                  <td className="td1">소재</td>
+                  <td className="td2">천연 나무 (고무 나무)</td>
+                </tr>
+                <tr>
+                  <td className="td1">사이즈</td>
+                  <td className="td2">2.4 x 16.0 x 51.6 cm</td>
+                </tr>
+                <tr>
+                  <td className="td1">무게</td>
+                  <td className="td2">총중량 248g</td>
+                </tr>
+                <tr>
+                  <td className="td1">내용</td>
+                  <td className="td2">
+                    가방, 청진기, 혈압계, 타건기, 체온계, 주사기 각 1 개
+                  </td>
+                </tr>
+                <tr>
+                  <td className="td1">대상 연령</td>
+                  <td className="td2">3세～</td>
+                </tr>
+                <tr>
+                  <td className="td1">주의사항</td>
+                  <td className="td2">
+                    천연 목재를 사용하고 있기 때문에, 나뭇결과 색감, 감촉 등
+                    하나 하나 개체 차이가 있습니다.
+                  </td>
+                </tr>
+              </table>
             </div>
 
-            <div>
-              <span>교환 및 반품 안내</span>
+            <div className="ship">
+              <h3>교환 및 반품 안내</h3>
+              <span style={{ whiteSpace: "pre-line" }}>
+                상품에 현저한 손상이 보이는 경우에 한해,
+                <br />
+                상품이 수중에 도착해보다 1주일 이내에 메일 혹은 전화로 연락해
+                주세요 .
+                <br />
+                상품 반납의 확인이 잡히는 대로, 교환 혹은 환불로 대응하겠습니다.
+                <br />
+                <br />
+                ※주의 상품 도착으로부터 1 주일을 지나면,
+                <br />
+                어떠한 이유로도 반품(교환·환불)의 대응은 하기 어렵습니다.
+                <br />
+                PC나 스마트폰등 사용하는 디바이스의 차이에 의해,
+                <br />
+                사진과 실물의 색미나 소재감이 약간 다른 경우가 있습니다.
+                <br />
+                이미지가 다른 등의 이유로의 반품 대응도 어렵습니다.
+                <br />
+                <br />그 외 고객 사정의 반품에 대해서도 대응하기 어렵기 때문에,
+                미리 양해 바랍니다.
+              </span>
             </div>
-          </div>
-          <div className="ProductRecommand">
-            {/* 추천 상품 */}
-            <span>같이 구매하면 좋은 상품</span>
           </div>
         </div>
       </div>
