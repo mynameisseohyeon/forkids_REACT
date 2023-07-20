@@ -6,13 +6,17 @@ import "../css/MemberSignUp.css";
 function MemberSignUp() {
   // Create state variables to store input values
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [useremail, setUseremail] = useState(""); //이메일 초기화
+  const [password, setPassword] = useState(""); //비밀번호 초기화
+  const [emailValid, setEmailValid] = useState(false); //이메일 유효하지 않을 경우
+  const [pwValid, setPwValid] = useState(false); //비밀번호가 유효하지 않을 경우
+  const [notAllow, setNotAllow] = useState(true);
+  const [showPassword, setShowPassword] = useState(false); //비밀번호 보여주기
 
   const handleSignUp = () => {
     //input에 입력된 값들을 초기화
     setName("");
-    setEmail("");
+    setUseremail("");
     setPassword("");
   };
 
@@ -36,11 +40,12 @@ function MemberSignUp() {
             <span>Email Address</span>
             <input
               placeholder="@.com"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              value={useremail}
+              onChange={(e) => setUseremail(e.target.value)}
             />
             <span>Password</span>
             <input
+              type={showPassword ? "text" : "password"}
               placeholder="••••••••••"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -68,7 +73,7 @@ function MemberSignUp() {
                   right: -42,
                   top: 30,
                 }}
-                onClick={handleSignUp} // Call the handleSignUp function on button click
+                onClick={handleSignUp}
               >
                 Create my account
               </Button>
