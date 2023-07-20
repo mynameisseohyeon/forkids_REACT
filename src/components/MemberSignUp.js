@@ -1,9 +1,21 @@
-import "../css/MemberSignUp.css";
-// import Button from "react-bootstrap/Button";
 import { Stack, Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import "../css/MemberSignUp.css";
 
 function MemberSignUp() {
+  // Create state variables to store input values
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleSignUp = () => {
+    //input에 입력된 값들을 초기화
+    setName("");
+    setEmail("");
+    setPassword("");
+  };
+
   return (
     <>
       <div className="MemberSignUpMain">
@@ -16,11 +28,23 @@ function MemberSignUp() {
           </span>
           <div className="CreateAccount">
             <span>Name</span>
-            <input placeholder="Please enter your name" />
+            <input
+              placeholder="Please enter your name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
             <span>Email Address</span>
-            <input placeholder="@.com" />
+            <input
+              placeholder="@.com"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
             <span>Password</span>
-            <input placeholder="••••••••••" />
+            <input
+              placeholder="••••••••••"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+            />
             <input
               className="checkbox"
               type="checkbox"
@@ -44,6 +68,7 @@ function MemberSignUp() {
                   right: -42,
                   top: 30,
                 }}
+                onClick={handleSignUp} // Call the handleSignUp function on button click
               >
                 Create my account
               </Button>

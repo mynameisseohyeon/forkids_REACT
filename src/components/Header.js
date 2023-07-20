@@ -1,11 +1,12 @@
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import "../css/Header.css";
 import { Stack, Button, Image } from "react-bootstrap";
-import HomePage from "../Screen/HomePage";
-import StorePage from "../Screen/StorePage";
-import DetailPage from "../Screen/DetailPage";
+import LoginPage from "../Screen/LogInPage";
+import React, { useState } from "react"; // Import useState hook
 
 function Header() {
+  const [buttonText, setButtonText] = useState("Get Start"); // Initialize buttonText state
+
   const buttonStyle = {
     backgroundColor: "pink",
     border: "none",
@@ -47,8 +48,9 @@ function Header() {
               style={buttonStyle}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
+              onClick={() => setButtonText("Welcome")} // 버튼 클릭 시 Welcome으로 수정
             >
-              Get Start
+              {buttonText}
             </Button>
           </Link>
         </div>
