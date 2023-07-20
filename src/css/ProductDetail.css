@@ -1,6 +1,6 @@
 .ProductDetailMain {
   width: 100%;
-  height: 3060px;
+  height: 2960px;
   background-color: pink;
   display: inline-flex;
   padding-left: 0px;
@@ -11,7 +11,7 @@
 
 .ProductDetailInner {
   width: 1080px;
-  height: 3060px;
+  height: 2960px;
   margin: 0 auto;
   padding: 80px 50px;
 }
@@ -58,7 +58,7 @@
 /* ProductTop */
 
 .ProductMiddle {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   height: 1680px;
   padding: 100px;
 }
@@ -70,21 +70,29 @@
   margin: 0 auto;
 }
 
+.ProductDescription {
+  padding-bottom: 50px;
+}
+
+.ProductDescription span {
+  line-height: 2;
+}
+
 /*/ProductMiddle*/
 
 .ProductBottom {
-  background-color: aliceblue;
-  height: 900px;
+  /* background-color: aliceblue; */
+  height: 800px;
   /* padding: 50px; */
   text-align: center;
 }
 
-.ProductBottom h3 {
+.ProductBottom h4 {
   padding-bottom: 30px;
 }
 
 .ProductGuid {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 table {

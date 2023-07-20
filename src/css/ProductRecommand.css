@@ -1,22 +1,22 @@
 .ProductRecommandMain {
   background-color: #fadde1;
   width: 100%;
-  height: 400px;
+  height: 500px;
   align-items: center;
 }
 
 .ProductRecommandInner {
   width: 980px;
-  height: 400px;
+  height: 500px;
   margin: 0 auto;
 }
 
 /* reset */
 
 .ProductRecommand {
-  height: 400px;
+  height: 500px;
   text-align: center;
-  padding: 30px 114px;
+  padding: 52px 114px;
 }
 
 .ProductRec {
