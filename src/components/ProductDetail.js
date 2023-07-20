@@ -1,8 +1,11 @@
 import "../css/ProductDetail.css";
 import { Stack, Button, Image } from "react-bootstrap";
 import React, { useState } from "react";
+import { useParams } from "react-router-dom";
 
-function ProductDetail() {
+function ProductDetail(props) {
+  let { id } = useParams(); //상품 클릭 시 그 상품의 상세페이지로 이동하도록 도와주는 Hook
+
   return (
     <>
       <div className="ProductDetailMain">
@@ -11,7 +14,9 @@ function ProductDetail() {
             <img src="images/decorating/toys16.png" />
             <div className="ProducTopInt">
               <h2>Doctor's Role Play Set</h2>
+              {/* <h2>{props.toys[id].title}</h2> */}
               <span>Price</span>
+              {/* <span>{props.toys[id].price}</span> */}
               <span>Quantity</span>
               <button>Add to Cart</button>
               <button>Buy Now</button>
@@ -22,6 +27,7 @@ function ProductDetail() {
             {/* Product Description */}
             <div className="ProductDescription">
               <img src="images/decorating/toys17.png" />
+              {/* <div>{props.toys[id].image}</div> */}
               <span>
                 Doctor is one of the familiar professions for children,
                 <br />

@@ -3,25 +3,25 @@ let data = [
     id: 0,
     title: "Doctor's Role Play Set",
     image: "images/decorating/toys16.png",
-    price: 3000,
+    price: 11500,
   },
   {
     id: 1,
-    title: "Red Knit",
+    title: "Imagination Playbox",
     image: "images/decorating/toys9.png",
-    price: 4000,
+    price: 32000,
   },
   {
     id: 2,
-    title: "Grey Yordan",
+    title: "City Block Alignment",
     image: "images/decorating/toys7.png",
-    price: 3500,
+    price: 13500,
   },
   {
     id: 3,
-    title: "Grey Yordan",
+    title: "Rainbow Shape Alignment",
     image: "images/decorating/toys12.png",
-    price: 3500,
+    price: 16000,
   },
 ];
 

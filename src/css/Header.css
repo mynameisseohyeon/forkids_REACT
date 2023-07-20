@@ -1,7 +1,18 @@
+.HeaderFix {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+}
+
 .HeaderMain {
   width: 100%;
   height: 150px;
   background-color: white;
+  position: fixed;
+  display: flex;
+  opacity: 0.85;
+  z-index: 1;
+  /* fixed 시에 height값이 둥둥 떠서 겹쳐짐*/
 }
 
 .HeaderInner {

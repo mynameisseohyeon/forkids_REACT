@@ -19,9 +19,15 @@ function Categories() {
               <Link to="/detail">
                 <img src="images/decorating/toys16.png" />
               </Link>
-              <img src="images/decorating/toys9.png" />
-              <img src="images/decorating/toys7.png" />
-              <img src="images/decorating/toys12.png" />
+              <Link to="/detail">
+                <img src="images/decorating/toys9.png" />
+              </Link>
+              <Link to="/detail">
+                <img src="images/decorating/toys7.png" />
+              </Link>
+              <Link to="/detail">
+                <img src="images/decorating/toys12.png" />
+              </Link>
             </div>
           </div>
           <div className="AgeCategory">

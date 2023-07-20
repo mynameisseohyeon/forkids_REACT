@@ -15,6 +15,7 @@ function Header() {
     height: "50px",
     color: "white",
     transition: "background-color 0.3s, color 0.3s",
+    opacity: 1,
   };
 
   const handleMouseEnter = (event) => {
@@ -29,30 +30,32 @@ function Header() {
 
   return (
     <>
-      <div className="HeaderMain">
-        <div className="HeaderInner">
-          <Link to="/">
-            <img src="images/LikeLion.png" style={{ width: 100 }} />
-          </Link>
-          <div className="HeaderMenu">
+      <div className="HeaderFix">
+        <div className="HeaderMain">
+          <div className="HeaderInner">
             <Link to="/">
-              <span>Home</span>
+              <img src="images/LikeLion.png" style={{ width: 100 }} />
             </Link>
-            <Link to="/store">
-              <span>Store</span>
+            <div className="HeaderMenu">
+              <Link to="/">
+                <span>Home</span>
+              </Link>
+              <Link to="/store">
+                <span>Store</span>
+              </Link>
+              <span>My Page</span>
+            </div>
+            <Link to="/login">
+              <Button
+                style={buttonStyle}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                onClick={() => setButtonText("Welcome")} // 버튼 클릭 시 Welcome으로 수정
+              >
+                {buttonText}
+              </Button>
             </Link>
-            <span>My Page</span>
           </div>
-          <Link to="/login">
-            <Button
-              style={buttonStyle}
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-              onClick={() => setButtonText("Welcome")} // 버튼 클릭 시 Welcome으로 수정
-            >
-              {buttonText}
-            </Button>
-          </Link>
         </div>
       </div>
     </>
